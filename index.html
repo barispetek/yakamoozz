@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakamoz UAV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="logo-background"></div>
+
+    <header class="header-full-width">
+        <div class="container">
+            <div class="flex-row">
+                <a href="#home">
+                    <img src="images/SONYAKAMOZ1.png" alt="Yakamoz UAV Logo" class="logo-img">
+                </a>
+                <nav>
+                    <a href="#home">Ana Sayfa</a>
+                    <a href="#aircraft">Araçlarımız</a>
+                    <a href="#about">Hakkımızda</a>
+                    <a href="#projects">Projelerimiz</a>
+                    <a href="#archives">Arşiv</a>
+                    <a href="#sponsors">Sponsorlarımız</a>
+                    <a href="#contact">İletişim</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <video autoplay muted loop class="background-video">
+                <source src="videos/site_video.mp4" type="video/mp4">
+            </video>
+            <h1>YAKAMOZ İHA TAKIMI</h1>
+            <p class="quote">“Göklerini koruyamayan uluslar, yarınlarından asla emin olamazlar.”</p>
+            <div class="signature">
+                <img src="images/mka.png" alt="Mustafa Kemal Atatürk İmzası">
+            </div>
+            <div class="scrollDown js-scrollDown">
+                <a href="#about">Aşağı Kaydır</a>
+            </div>
+        </section>
+
+        <section id="aircraft" class="section">
+            <h2>Hava Araçlarımız</h2>
+            <div class="carousel">
+                <button class="arrow left">&#8592;</button>
+                <div class="carousel-container">
+                    
+                    <div class="aircraft-card" id="vtol">
+                        <div class="aircraft-image" >
+                            <img src="images/vtol1.png" alt="Fergani VTOL" id="vtolimg">
+                        </div>
+                        <div class="aircraft-details">
+                            <h3>Fergani VTOL</h3>
+                            <ul class="aircraft-features">
+                                <li>Kanat açıklığı: 2 Metre</li>
+                                <li>Haberleşme Menzili: 40KM</li>
+                                <li>Uçuş Süresi: 1 Saat</li>
+                                <li>Tam Otonom Uçuş</li>
+                                <li>Bilgisayarlı Görü - Nesne Tespit - Nesne Takip</li>
+                                <li>Full Karbonfiber Kompozit Malzeme</li>
+                                <li>7 Kilo Toplam Ağırlık</li>
+                                <li>1 Kilo Faydalı Yük Taşıma Kapasitesi</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="aircraft-card" id="hexa">
+                        <div class="aircraft-image" >
+                            <img src="images/Hexacopter.png" alt="Hexacopter" id="hexaimg">
+                        </div>
+                        <div class="aircraft-details">
+                            <h3>Hexacopter P-1</h3>
+                            <ul class="aircraft-features">
+                                <li>6 Motor Hexacopter</li>
+                                <li>40 Km Haberleşme Menzili</li>
+                                <li>Tam Otonom Uçuş</li>
+                                <li>5 Kilo Faydalı Yük Kapasitesi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow right">&#8594;</button>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Hakkımızda</h2>
+                    <p>
+                        Yakamoz İHA Takımı olarak, yenilikçi projeler geliştirmek ve mühendislik alanında fark yaratmak için çalışmalarımızı sürdürüyoruz. 
+                        Mevcut sistemleri tekrar etmek yerine, yeni ve yapılmamış sistemlere odaklanmayı tercih ediyoruz. 
+                        Takım olarak, özgün çözümler üretme hedefimiz doğrultusunda çalışmalarımıza tüm gücümüzle devam ediyoruz.
+                    </p>
+                </div>
+        
+                <div class="about-videos">
+                    <video src="videos/neuralnetwork.mp4" muted autoplay loop></video>
+                    <video src="videos/game.mp4" muted autoplay loop></video>
+                </div>            
+            </div>
+            <div class="about-text-overlay">
+                <p>Yapay Sinir Ağları ile Makinenin Kendi Kendine Oyun Oynamayı Öğrenmesi</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projelerimiz</h2>
+            <p>Burada, üzerinde çalıştığımız projeleri keşfedin ve her birinin detaylarına ulaşın.</p>
+            <div class="projects-container">
+               
+                <div class="project-card video-project">
+                    <video autoplay loop muted>
+                        <source src="videos/goru.mp4" type="video/mp4">.
+                    </video>
+                    <h3>TAKİP ALGORİTMASI</h3>
+                    <p>Yakamoz İHA Takımı tarafından geliştirilen Görü Projesi ile, iki farklı algoritma kullanarak oluşturulan tespit ve takip yazılımı, güçlü donanım gereksinimlerini en aza indirgemeyi başarmıştır. Bu sayede, hava aracında bulunan bilgisayar daha verimli çalışarak, nesne takibinin doğruluğunu arttırmıştır.</p>
+                </div>
+               
+                <div class="project-card video-project">
+                    <video autoplay loop muted>
+                        <source src="videos/sahit.mp4" type="video/mp4">.
+                    </video>
+                    <h3>ŞAHİT</h3>
+                    <p>Açık kaynaklı yer kontrol istasyonu yazılımlarından farklı olarak, ŞAHİT Yer Kontrol İstasyonu, hava araçlarımızın otonom görev emirlerinin iletilmesi ve araçlarımız ile güvenilir bir haberleşme altyapısının sağlanması amacıyla, tamamen takımımız tarafından özgün olarak tasarlanıp geliştirilmiştir.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/fergani2.jpeg" alt="Proje 1">
+                    <h3>Project SUAS 2024</h3>
+                    <p>Amerika Birleşik Devletleri'nde düzenlenen SUAS-2024 yarışması için tasarladığımız dikey iniş kalkış yapabilen sabit kanatlı platform (VTOL). Platform, tam otonom uçuş yapabilmekte ve takımımız tarafından geliştirilen yapay zeka bilgisayarlı görü yazılımı ile acil durumda olan bireyi tespit edebilmekte ve medikal kargo paketi bırakabilmektedir.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/ulgen2.png" alt="Proje 1">
+                    <h3>ÜLGEN</h3>
+                    <p>ÜLGEN (4 motorlu hexacopter platform) üzerinde yer alan makine öğrenme algoritmaları bulunan kara aracı ile, orman yangınlarını önlemek amacıyla tasarlandı. Ancak, platformun faydalı yük taşıma kapasitesinin yetersiz kalması nedeniyle, daha fazla yük taşıma kapasitesine sahip olan hexacopter projesine geçilmiştir.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="archives" class="section">
+            <div class="archive-container">
+                <div class="archive-slide active">
+                    <img src="images/archive5.jpeg" alt="Büyük Fotoğraf">
+                </div>
+            </div>
+            <div class="archive-thumbnails">
+                <div class="archive-thumbnail">
+                    <img src="images/archive1.JPG" alt="Fotoğraf 1">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive2.JPG" alt="Fotoğraf 2">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive3.jpeg" alt="Fotoğraf 3">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive4.jpeg" alt="Fotoğraf 3">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive5.jpeg" alt="Fotoğraf 3">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive6.png" alt="Fotoğraf 3">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive7.png" alt="Fotoğraf 3">
+                </div>
+                <div class="archive-thumbnail">
+                    <img src="images/archive8.JPG" alt="Fotoğraf 1">
+                </div>
+            </div>
+        </section>
+
+        <section id="sponsors" class="section">
+            <h2>Sponsorlarımız</h2>
+            <div class="sponsors-container">
+                <img src="images/solidworks-logo.png" alt="SolidWorks" class="sponsor-logo">
+                <img src="images/otostech-logo.png" alt="Otostech" class="sponsor-logo sponsor-center">
+                <img src="images/yildirimgroup-logo.png" alt="Yıldırım Group" class="sponsor-logo">
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>İletişim</h2>
+            <p>İletişim için bize ulaşın:</p>
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/yakamozuav/" target="_blank" class="contact-link">
+                    <i class="fab fa-instagram contact-logo"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/yakamoz-uav-team/posts/?feedView=all" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin contact-logo"></i>
+                </a>
+                <a href="mailto:info@yakamozuav.com" class="contact-link">
+                    <i class="fas fa-envelope contact-logo"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
